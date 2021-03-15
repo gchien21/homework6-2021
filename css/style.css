@@ -90,8 +90,7 @@ header{
 #logo{
    /*Your code here.*/
    animation-name: logo_grow;
-   animation-duration: 5s;
-   animation-iteration-count: 1;
+   animation-duration: 15s;
 }
 
 /*Keyframes for animation*/
@@ -148,21 +147,20 @@ header{
     }
 }
 
-
-@media print { 
+@media print{ 
 
   /*Requirement 13*/
   body{
     background-image: none;
 }
   /*Requirement 14*/
-  .nav_item{
+  nav{
     width: 100%;
   }
   /*Requirement 15*/
   header{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
   .nav_links{
     display: flex;
